@@ -1,0 +1,273 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "what can you do for me"
+            ],
+            "responses": [
+                "i can help you assist for the website"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hall",
+            "patterns": [
+                "how can i book hall? "
+            ],
+            "responses": [
+                "can you specify location for better hall suggestion"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hall",
+            "patterns": [
+                "i want to book hall?"
+            ],
+            "responses": [
+                "There are variety of hall . Check it out in venue section. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hall near surat",
+            "patterns": [
+                "i want to book hall ",
+                "i want to book hall near surat",
+                "best hall near surat"
+            ],
+            "responses": [
+                "can you specify location for better hall suggestion",
+                "Can you specify the hall with how much capacity",
+                "we have best hall listed in our system you can check it out in venue section"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Auditorium near surat",
+            "patterns": [
+                "auditorium near surat"
+            ],
+            "responses": [
+                "There are many Auditorium around surat you can check it out in venues section",
+                "Can you specify the auditorium with how much capacity"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Farm house near surat",
+            "patterns": [
+                "Farm house near surat"
+            ],
+            "responses": [
+                "There are many farm house around surat you can check it out in venues section"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "villa near surat",
+            "patterns": [
+                "villa near surat",
+                "is there villas arround surat"
+            ],
+            "responses": [
+                "There are variety of villa . Check it out in venue section. ",
+                "There are many villa around surat you can check it out in venues section",
+                "yes, there are villas arround surat you can check it out in venues section"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "party plot  near surat",
+            "patterns": [
+                "is there any party plot near surat?",
+                "can i book party plot"
+            ],
+            "responses": [
+                "Yes, there are plenty of party plot in surat",
+                "Yes, you can book party plot easily through venueazy"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "party plot for marriage",
+            "patterns": [
+                "Can i book party plot for marriage?",
+                "Is there any party plot for marriage?"
+            ],
+            "responses": [
+                "Yes, you can book party plot for marriage",
+                "Can you specify the guests numbers"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "party plot",
+            "patterns": [
+                "i want to book party plot"
+            ],
+            "responses": [
+                "Yes, you can book party plot from venues section",
+                "where do you want to book a party plot ?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "villa",
+            "patterns": [
+                "i want to book a villa?"
+            ],
+            "responses": [
+                "where do you want to book a villa ?",
+                "expected guest numbers?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "farm house",
+            "patterns": [
+                "i want to book farm house"
+            ],
+            "responses": [
+                "where do you want to book farm house",
+                "expected guest numbers?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Want to book venue",
+            "patterns": [
+                "i want to book venue"
+            ],
+            "responses": [
+                "which type of venue would you like to book?",
+                "you can book venue from venue section. just click on view detail on choice of your venue and book it"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "want to cancel venue",
+            "patterns": [
+                "i want to cancel my booking",
+                "cancel venue"
+            ],
+            "responses": [
+                "have you checked the cancellation policy?",
+                "you can cancel the venue and you will get the refund as per the cancellation policy."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "refund",
+            "patterns": [
+                "how much refund i will get?",
+                "will i get refund if i cancel my booking"
+            ],
+            "responses": [
+                "have you checked the cancellation policy?",
+                "you can cancel the venue and you will get the refund as per the cancellation policy.",
+                "yes, you will get the refund as per the cancellation policy."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello, thanks for asking",
+          "Good to see you again",
+          "Hi there, how can I help?"
+        ],
+        "context": [
+          "im not sure how to help you"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you, bye",
+          "Till next time"
+        ],
+        "responses": [
+          "See you!",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [
+          ""
+        ],
+        "responses": [
+          "Sorry, can't understand that",
+          "Please give me more information",
+          "sorry! I did't get it"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "options",
+        "patterns": [
+          "How you could help me?",
+          "What you can do?",
+          "What help you provide?",
+          "How you can be helpful?",
+          "What support is offered"
+        ],
+        "responses": [
+          "I can guide you through online venue booking, E-PASS generation, Buses and Routes",
+          "Offering support for bus ticket booking, Ticket Booking"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "ticket_booking",
+        "patterns": [
+          "How to fill ticket booking form?",
+          "checkig timing",
+          "check route"
+        ],
+        "responses": [
+          "Navigating to Ticket Booking"
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "ePass",
+        "patterns": [
+          "Open E-pass module",
+          "Task related to E-pass generation",
+          "E-pass data entry",
+          "I want to log E-pass generation results",
+          "E-pass data management"
+        ],
+        "responses": [
+          "Navigating to E-pass generation module"
+        ],
+        "context": [
+          "epass generation"
+        ]
+      },
+      {
+        "tag": "demo_video",
+        "patterns": [
+          "What is demo video",
+          "how to access demo video",
+          "how does it works",
+          "help from demo vido",
+          "demo video"
+        ],
+        "responses": [
+          "In demo video, Video on to access system is there",
+          "Just start the video",
+          "It will help to access the system "
+        ],
+        "context": [
+          ""
+        ]
+      },
+      {
+        "tag": "requesting",
+        "patterns": [
+          "what is the name of this chatbot"
+        ],
+        "responses": [
+          "my name is Azychatbot"
+        ],
+        "context": [
+          "name"
+        ]
+      },
+      {
+        "tag": "hall booking",
+        "patterns": [
+          "which is the best hall in the town"
+        ],
+        "responses": [
+          "adani managed hall is the best in the town"
+        ],
+        "context": [
+          "hall "
+        ]
+      },
+      {
+        "tag": "developer name",
+        "patterns": [
+          "who has developed you "
+        ],
+        "responses": [
+          "Himanshu has developed me"
+        ],
+        "context": [
+          "developer"
+        ]
+      },
+      {
+        "tag": "connection",
+        "patterns": [
+          "connection"
+        ],
+        "responses": [
+          "connection"
+        ],
+        "context": [
+          "connection"
+        ]
+      }
+    ]
+  }
